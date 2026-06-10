@@ -47,8 +47,13 @@ sidebar:
       - item: Reading
         link:
 
-      - item: Cooking
-        link:
+    - item: Snowboarding
+      link:
+
+
+    - item: Cooking
+      link:
+
 
 career-profile:
     title: Career Profile

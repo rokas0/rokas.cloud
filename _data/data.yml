@@ -3,28 +3,28 @@
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False
+  education: True
 
   # Profile information
   name: Oswald Rokas
   tagline: Cloud Architect
-  #   avatar: aws-certified.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: hey@rokas.cloud
-  # phone: 012 345 6789
-  website: rokas.cloud #do not add http://
+  website: rokas.cloud
   linkedin: os-osvaldas-r-8100a048
   github: rokas0
   gitlab:
   bitbucket:
   twitter:
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
+  goodreads:
 
   languages:
+    title: Languages
+    info:
     - idiom: English
       level: Professional
 
@@ -38,9 +38,12 @@ sidebar:
       level: Intermediate
 
   interests:
+    title: Interests
+    info:
     - item: Globetrotting
 
     - item: Reading
+
     - item: Cooking
 
 career-profile:
@@ -48,7 +51,10 @@ career-profile:
   summary: |
     Certified cloud architect with 10+ years of designing and building software solutions.
     Current interests are serverless solutions, containers, security, scaling and reliability.
+
 education:
+  title: Education
+  info:
   - degree: MSc in Software Engineering
     university: De Montfort University
     time: 2015 - 2017
@@ -59,15 +65,10 @@ education:
   - degree: BEng in Information and Communication Technology Engineering
     university: VIA University College, Denmark
     time: 2009 - 2013
-    # details: |
-    #   Describe your study here lorem ipsum dolor sit amet, consectetuer
-    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-    #   sociis natoque penatibus et magnis dis parturient montes, nascetur
-    #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-    #   pretium quis, sem.
-    #     - Bullet point
-    #     - Bullet point
+
 experiences:
+  title: Experiences
+  info:
   - role: Head of Platform Architecture
     time: 2019 - Present
     company: Korelogic Ltd, Leeds
@@ -119,8 +120,6 @@ experiences:
 
 certifications:
   title: Certifications
-  #      intro: >
-  #          asdfasdf
   assignments:
     - title: AWS Certified Solutions Architect - Associate (9PPYQKD1N111QK53)
       link: http://aws.amazon.com/verification
@@ -131,76 +130,11 @@ certifications:
     - title: AWS Certified Developer - Associate (0FHYR9T2HMQ11VW6)
       link: http://aws.amazon.com/verification
       tagline: 2018 March
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
-  # intro: |
-  #   You can list your publications in this section. Lorem ipsum dolor sit
-  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-  #   bibendum fringilla a eu lectus.
   papers:
     - title: "Healthcare in the Smart Home: A Study of Past, Present and Future"
       link: https://www.mdpi.com/2071-1050/9/5/840
       authors: Jamie Bennett, Osvaldas Rokas and Liming Chen
       conference: Sustainability 2017
-
-    # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    #   link: "#"
-    #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    # - title: A syntax directed compiler for Algol 60
-    #   link: "#"
-    #   authors: Edgar T. Irons
-    #   conference: "Comm. ACM 4 (1961), 51–55"
-
-# skills:
-#     title: Skills &amp; Proficiency
-#
-#     toolset:
-#       - name: AWS
-#         level: 98%
-#
-#       - name: DevOps
-#         level: 90%
-#
-#       - name: NodeJS
-#         level: 80%
-#
-#       - name: Infrastructure as code
-#         level: 90%
-#
-#       - name: Kafka
-#         level: 85%
-#
-#       - name: SQS
-#         level: 60%
-
-# footer: >
-#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

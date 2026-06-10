@@ -8,11 +8,11 @@ sidebar:
 
   # Profile information
   name: Oswald Rokas
-  tagline: Cloud Architect
+  tagline: Cloud Architect & FinOps Practitioner
 
   # Sidebar links
   email: hey@rokas.cloud
-  website: rokas.cloud
+  website: cv.rokas.cloud
   linkedin: os-osvaldas-r-8100a048
   github: rokas0
   gitlab:
@@ -25,111 +25,125 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Professional
+      - idiom: English
+        level: Professional
 
-    - idiom: Danish
-      level: Intermediate
+      - idiom: Danish
+        level: Intermediate
 
-    - idiom: Russian
-      level: Intermediate
+      - idiom: Russian
+        level: Intermediate
 
-    - idiom: Spanish
-      level: Intermediate
+      - idiom: Spanish
+        level: Intermediate
 
   interests:
     title: Interests
     info:
-    - item: Globetrotting
+      - item: Globetrotting
 
-    - item: Reading
+      - item: Reading
 
-    - item: Cooking
+      - item: Cooking
 
 career-profile:
   title: Career Profile
   summary: |
-    Certified cloud architect with 10+ years of designing and building software solutions.
-    Current interests are serverless solutions, containers, security, scaling and reliability.
+    AWS-certified cloud architect with 10+ years designing and operating cloud platforms at scale.
+    Proven track record of reducing AWS spend through right-sizing, architectural optimisation, and cost governance.
+    Deep experience with serverless (Lambda, DynamoDB, S3), containers (ECS/Fargate), and infrastructure-as-code (Terraform).
+    Background in iGaming and regulated environments with strong financial accountability.
 
 education:
   title: Education
   info:
-  - degree: MSc in Software Engineering
-    university: De Montfort University
-    time: 2015 - 2017
-    details: |
-      Published an article to a scientific journal
-        - Advanced Requirements Engineering and Software Architecture – 71% (distinction)
-        - Agile Project Management – 74% (distinction)
-  - degree: BEng in Information and Communication Technology Engineering
-    university: VIA University College, Denmark
-    time: 2009 - 2013
+    - degree: MSc in Software Engineering
+      university: De Montfort University
+      time: September 2015 - February 2017
+      details: |
+        Published an article to a scientific journal
+          - Advanced Requirements Engineering and Software Architecture – 71% (distinction)
+          - Agile Project Management – 74% (distinction)
+    - degree: BEng in Information and Communication Technology Engineering
+      university: VIA University College, Denmark
+      time: September 2009 - June 2013
 
 experiences:
   title: Experiences
   info:
-  - role: Head of Platform Architecture
-    time: 2019 - Present
-    company: Korelogic Ltd, Leeds
-    details: |
-      The role holds responsibility for reliability, security, operations, performance and costs
-        - Evaluated cloud solutions using AWS Well-Architected Framework
-        - Designed serverless solutions using Lambda, DynamoDB and S3
-        - Architected AWS VPC communication with on-premises data centre
-        - Introduced Active Directory to authenticate with internal tools
-        - Granted least privilege access to AWS resources for colleagues and internal tools
-        - Produced a container solution using ECS and Fargate
-        - Reduced AWS bills by using more efficient cloud solutions
-        - Designed software deployment solution using Azure Intune and Azure AD
-  - role: Software Engineer
-    time: 2017 - 2019
-    company: Sky Betting and Gaming, Leeds
-    details: |
-      Building a new serverless messaging system from scratch
-        - Kafka used to transmit data from on-premises to AWS
-        - We used AWS ECS Fargate to run Kafka Connect containers
-        - The architecture was serverless. A client would hit API Gateway and validate there, pass it to SNS later to SQS. Lambda would pull a message and send it to AWS IoT and DynamoDB
-        - We used Terraform to build infrastructure as a code
-        - Deployments were done by us on a daily basis
-        - Configuring Jenkins in groovy and Makefile were done by us too
-        - Daily stand-ups, sprint retrospectives and progress tracking on Jira
-  - role: Senior Java PHP developer (Contract)
-    time: 2016 - 2017
-    company: Plusnet (BT) / Tata Consultancy Service, Sheffield
-    details: |
-      Solving engineering problems with help from architects and business analysts
-        - Working in Agile team with 6 developers and testers having 2-week sprints
-        - Sprints would start receiving high-level design from an architect and a developer has to poduce a low-level design
-        - Continuous integration tool Jenkins was used to deploy changes live every second week
-        - Designing test cases using Test-driven development (TDD), mocks and integration tests
-  - role: Web developer
-    time: 2012 - 2016
-    company: Invitetobuy.dk, Copenhagen, Denmark
-    details: |
-      Main responsibility was to develop a rapidly growing e-shop mainly focusing on backend
-        - Developing plugins for content-management-system which was either Drupal or Prestashop
-        - Test-driven development (TDD) employed for both PHP and JavaScript code
-        - REST used to connect to external servers
-        - JavaScript was using Ajax and called build REST services on PHP
-  - role: Web developer
-    time: 2007 - 2009
-    company: Virtual.lt, Panevezys, Lithuania
-    details: |
-      Developed a content management system from scratch and installed it into 100+ websites
+    - role: Head of Platform Architecture
+      time: July 2019 - Present
+      company: Korelogic Limited, Leeds
+      details: |
+        Accountable for platform reliability, security, performance, and cloud cost management across multi-tenant AWS infrastructure
+          - Reduced AWS spend by identifying inefficiencies, right-sizing resources, and selecting cost-optimal architectures
+          - Built and maintained cost attribution models to track spend across services and business units
+          - Evaluated and optimised cloud solutions using AWS Well-Architected Framework (Cost Optimisation pillar)
+          - Designed serverless solutions using Lambda, DynamoDB, and S3 — optimising for cost-per-transaction
+          - Managed DynamoDB capacity modes and provisioned throughput to balance performance with spend
+          - Produced container solutions using ECS and Fargate with appropriate compute sizing
+          - Architected AWS VPC connectivity with on-premises data centre
+          - Established access governance and financial controls for AWS resource provisioning
+          - Presented infrastructure cost reports and optimisation recommendations to leadership
+    - role: Software Engineer
+      time: August 2017 - July 2019
+      company: Sky Betting and Gaming, Leeds
+      details: |
+        Built a cost-efficient serverless messaging platform from scratch in a regulated iGaming environment
+          - Designed event-driven architecture using API Gateway, SNS, SQS, Lambda, and DynamoDB — optimised for pay-per-use pricing
+          - Managed ECS Fargate containers for Kafka Connect with right-sized task definitions
+          - Used Terraform to codify infrastructure, enabling cost visibility and change tracking
+          - Operated in a compliance-driven environment with strict financial and operational controls
+          - Kafka used to stream data from on-premises to AWS at scale
+          - Daily deployments via Jenkins CI/CD pipelines
+    - role: Senior Java PHP Developer (Contract)
+      time: 2016 - 2017
+      company: Plusnet (BT) / Tata Consultancy Service, Sheffield
+      details: |
+        Delivered software in a regulated telecoms environment with strict change controls
+          - Worked in Agile team with 2-week sprints and continuous integration via Jenkins
+          - Translated high-level architectural designs into low-level implementations
+          - Applied TDD and integration testing to ensure quality in production deployments
+    - role: Web Developer
+      time: 2012 - 2016
+      company: Invitetobuy.dk, Copenhagen, Denmark
+      details: |
+        Backend development for a rapidly growing e-commerce platform
+          - Built REST APIs and CMS plugins (Drupal, Prestashop)
+          - Applied TDD practices for PHP and JavaScript
+    - role: Web Developer
+      time: 2007 - 2009
+      company: Virtual.lt, Panevezys, Lithuania
+      details: |
+        Developed a content management system from scratch, deployed to 100+ websites
 
 certifications:
   title: Certifications
   assignments:
+    - title: AWS Certified AI Practitioner
+      link: http://aws.amazon.com/verification
+      tagline: January 2026
+    - title: CKA - Certified Kubernetes Administrator
+      link: https://www.cncf.io/training/certification/cka/
+      tagline: August 2022
+    - title: CISSP - Certified Information Systems Security Professional
+      link: https://www.isc2.org/
+      tagline: January 2022
+    - title: AWS Certified Solutions Architect - Professional
+      link: http://aws.amazon.com/verification
+      tagline: January 2021
+    - title: AWS Certified Security - Specialty
+      link: http://aws.amazon.com/verification
+      tagline: February 2020
     - title: AWS Certified Solutions Architect - Associate (9PPYQKD1N111QK53)
       link: http://aws.amazon.com/verification
-      tagline: 2019 July
+      tagline: July 2019
     - title: AWS Certified SysOps Administrator - Associate (ZGTRX7J1BNQ41KS7)
       link: http://aws.amazon.com/verification
-      tagline: 2019 April
+      tagline: April 2019
     - title: AWS Certified Developer - Associate (0FHYR9T2HMQ11VW6)
       link: http://aws.amazon.com/verification
-      tagline: 2018 March
+      tagline: March 2018
 
 publications:
   title: Publications

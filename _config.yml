@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Oswald (Osvaldas) Rokas Resume
-url: "https://rokas.cloud"
+url: "https://cv.rokas.cloud"
 baseurl: "" #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
